@@ -207,22 +207,5 @@ public class Polynomial {
     }
 
     public static void main (String[] args) {
-        Polynomial pol1 = new Polynomial(new double[]{-1,0,2});
-        Polynomial pol2 = new Polynomial(new double[]{3,0,4,0,1});
-        Polynomial pol3 = new Polynomial(new double[]{3,0,1});
-        Polynomial pol4 = pol1.add(pol2);
-        Polynomial pol5 = pol1.sub(pol2);
-        Polynomial pol6 = pol1.mul(pol2);
-        Polynomial pol7 = pol2.div(pol3);
-
-        System.out.println(pol1);
-        System.out.println(pol2);
-        System.out.println(pol3);
-        System.out.println(pol4);
-        System.out.println(pol5);
-        System.out.println(pol6);
-        System.out.println(pol7);
-        System.out.println(pol1.evaluate(3.5));
-        System.out.println(pol1.derivative().derivative());
     }
 }
